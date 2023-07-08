@@ -159,7 +159,7 @@ body {
     text-align: center;
     /* border: 2px solid black; */
     color: var(--dark-01, #181818);
-    text-align: center;
+    /* text-align: center; */
     font-family: Open Sans;
     font-size: 35px;
     font-style: normal;
@@ -194,7 +194,7 @@ body {
     padding-top: 35px;
 }
 
-.info_box p{
+.info_box p {
     color: #757575;
     text-align: center;
     font-family: Open Sans;
@@ -204,9 +204,50 @@ body {
     line-height: 30px;
 }
 
-.info_box h4{
+.info_box h4 {
     color: #181818;
     font-size: 18px;
     font-family: Open Sans;
     /* font-weight: bold; */
+}
+
+.do_main {
+    margin: 130px 230px;
+}
+
+.do_p1 {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 100%;
+}
+
+.do_parent_box {
+    padding-top: 80px;
+    display: flex;
+    gap: 90px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.do_box h4 {
+    margin-top: 30px;
+    color: var(--dark-01, #181818);
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.do_box_para{
+    margin-top: 20px;color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
