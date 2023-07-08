@@ -5,11 +5,13 @@
 
 body {
     /* font-family: 'Ysabeau Office', sans-serif; */
-    font-family: 'Ysabeau Office', sans-serif;
+    /* font-family: 'Ysabeau Office', sans-serif; */
+    font-family: Open Sans;
 }
 
-.primary_color{
-    color: #FD6E0A;;
+.primary_color {
+    color: #FD6E0A;
+    ;
 }
 
 .head_nav_manu {
@@ -54,15 +56,86 @@ body {
 
 }
 
-.btn_1{
+.btn_1 {
     width: 150px;
-height: 64px;
-border: 0px;
-border-radius: 5px;
-background: #FD6E0A;
-color: var(--white-color, #FFF);
-font-size: 20px;
+    height: 64px;
+    border: 0px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 15px;
+    /* padding: 10px; */
+}
+
+
+
+.profile_container{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.profile_right_part{
+    width: 584px;
+    height: 676px;
+}
+
+.profile_left_part > h4{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.profile_left_part > h2{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.profile_left_part > p{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 20px;
+}
+
+.btn_2{
+    width: 200px;
+    height: 64px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    /* color: var(--white-color, #FFF); */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.btn_2:hover{
+    background-color:#FD6E0A;
+    color:#FFF8F3;
 }
